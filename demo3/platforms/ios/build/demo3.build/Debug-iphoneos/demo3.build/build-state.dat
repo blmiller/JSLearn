@@ -1,0 +1,992 @@
+Tdemo3
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Info.plist /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/demo3-Info.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/device/demo3.app/ResourceRules.plist
+cPhaseScriptExecution Copy\ www\ directory /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Script-304B58A110DAC018002A0835.sh
+cCpResource demo3/config.xml build/device/demo3.app/config.xml
+cCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-76.png demo3/Resources/icons/icon-76.png
+cCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-40@2x.png demo3/Resources/icons/icon-40@2x.png
+cCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-72.png demo3/Resources/icons/icon-72.png
+cCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon.png demo3/Resources/icons/icon.png
+cCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon@2x.png demo3/Resources/icons/icon@2x.png
+cCopyStringsFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/en.lproj/Localizable.strings demo3/Resources/en.lproj/Localizable.strings
+cCompileXIB /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Classes/MainViewController.xib
+cCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-50.png demo3/Resources/icons/icon-50.png
+cCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-60@2x.png demo3/Resources/icons/icon-60@2x.png
+cCopyStringsFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/de.lproj/Localizable.strings demo3/Resources/de.lproj/Localizable.strings
+cCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-small.png demo3/Resources/icons/icon-small.png
+cCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default-Landscape@2x~ipad.png demo3/Resources/splash/Default-Landscape@2x~ipad.png
+cCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default-Landscape~ipad.png demo3/Resources/splash/Default-Landscape~ipad.png
+cCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default-Portrait@2x~ipad.png demo3/Resources/splash/Default-Portrait@2x~ipad.png
+cCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-small@2x.png demo3/Resources/icons/icon-small@2x.png
+cCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default-Portrait~ipad.png demo3/Resources/splash/Default-Portrait~ipad.png
+cCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-40.png demo3/Resources/icons/icon-40.png
+cCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default@2x~iphone.png demo3/Resources/splash/Default@2x~iphone.png
+cCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default~iphone.png demo3/Resources/splash/Default~iphone.png
+cCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-60.png demo3/Resources/icons/icon-60.png
+cCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default-568h@2x~iphone.png demo3/Resources/splash/Default-568h@2x~iphone.png
+cCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-50@2x.png demo3/Resources/icons/icon-50@2x.png
+cCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-76@2x.png demo3/Resources/icons/icon-76@2x.png
+cCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-72@2x.png demo3/Resources/icons/icon-72@2x.png
+cProcessPCH /var/folders/wq/002kv07s1jzc5jl7f1_2dll80000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/demo3-Prefix-fnyxkqxpbeczpnaxkchedhbnhjpj/demo3-Prefix.pch.pch demo3/demo3-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/main.o /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/AppDelegate.o /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/MainViewController.o /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/CDVDevice.o /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Plugins/org.apache.cordova.device/CDVDevice.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/CDVCompass.o /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Plugins/org.apache.cordova.device-orientation/CDVCompass.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/CDVLocation.o /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Plugins/org.apache.cordova.geolocation/CDVLocation.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/demo3 normal armv7
+cGenerateDSYMFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app.dSYM /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/demo3
+cProcessProductPackaging /Users/Candy/Library/MobileDevice/Provisioning\ Profiles/BA3A650E-485F-41C9-B75E-B232AEDE64B3.mobileprovision /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/embedded.mobileprovision
+cTouch /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3.xcent
+cCodeSign /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c0000000053119F860000000000000132
+t1393663878
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+c00000000532B5AF70000000000000094
+t1395350263
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+c00000000532B5AF70000000000000096
+t1395350263
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c00000000532B5AF7000000000000036B
+t1395350263
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000532B5AF8000000000000019E
+t1395350264
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c00000000532B5AF80000000000075BA0
+t1395350264
+s482208
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000532B5AFA00000000004D7BC0
+t1395350266
+s5077952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000532B5AFA0000000000152370
+t1395350266
+s1385328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c00000000532B5AFC0000000000210E90
+t1395350268
+s2166416
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/AppDelegate.o
+t1396565744
+s74456
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/CDVCompass.o
+t1396565744
+s91080
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/CDVDevice.o
+t1396565744
+s50692
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/CDVLocation.o
+t1396565744
+s97604
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/MainViewController.o
+t1396565744
+s50572
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/demo3.LinkFileList
+c00000000533DE6EA0000000000000309
+t1396565738
+s777
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/main.o
+t1396565744
+s3044
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Script-304B58A110DAC018002A0835.sh
+c00000000533DE6EA000000000000002D
+t1396565738
+s45
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3.xcent
+t1396565745
+s676
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app
+t1396565745
+s1088
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app.dSYM
+t2
+s0
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default-568h@2x~iphone.png
+t1396565740
+s61990
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default-Landscape@2x~ipad.png
+t1396565739
+s143186
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default-Landscape~ipad.png
+t1396565739
+s65305
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default-Portrait@2x~ipad.png
+t1396565739
+s136924
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default-Portrait~ipad.png
+t1396565739
+s63460
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default@2x~iphone.png
+t1396565739
+s55319
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default~iphone.png
+t1396565739
+s20021
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Info.plist
+t1396565738
+s1554
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/MainViewController.nib
+t1396565742
+s1332
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/PkgInfo
+t2
+s0
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/ResourceRules.plist
+t1396565738
+s150
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/config.xml
+t1396565738
+s1679
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/de.lproj/Localizable.strings
+t1396565738
+s280
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/demo3
+t1396565745
+s326360
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/embedded.mobileprovision
+t1396565745
+s11654
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/en.lproj/Localizable.strings
+t1396565738
+s166
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-40.png
+t1396565739
+s4450
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-40@2x.png
+t1396565738
+s8883
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-50.png
+t1396565738
+s5557
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-50@2x.png
+t1396565739
+s11331
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-60.png
+t1396565739
+s6838
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-60@2x.png
+t1396565738
+s14152
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-72.png
+t1396565738
+s8045
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-72@2x.png
+t1396565740
+s17926
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-76.png
+t1396565738
+s8463
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-76@2x.png
+t1396565740
+s16629
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-small.png
+t1396565738
+s3349
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-small@2x.png
+t1396565739
+s6585
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon.png
+t1396565738
+s5977
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon@2x.png
+t1396565738
+s13012
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/libCordova.a
+c00000000533DE6EA00000000001AF680
+t1396565738
+s1767040
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Classes/AppDelegate.m
+c000000005330CFB500000000000013A1
+t1395707829
+s5025
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Classes/MainViewController.m
+c000000005330CFB50000000000001266
+t1395707829
+s4710
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Classes/MainViewController.xib
+c000000005330CFB50000000000001759
+t1395707829
+s5977
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Plugins/org.apache.cordova.device-orientation/CDVCompass.m
+c00000000533440620000000000002CC7
+t1395933282
+s11463
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Plugins/org.apache.cordova.device/CDVDevice.m
+c00000000533DE15A0000000000000C22
+t1396564314
+s3106
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Plugins/org.apache.cordova.geolocation/CDVLocation.m
+c000000005334420800000000000033EB
+t1395933704
+s13291
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/de.lproj/Localizable.strings
+c000000005330CFB500000000000004BF
+t1395707829
+s1215
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/en.lproj/Localizable.strings
+c000000005330CFB500000000000004AA
+t1395707829
+s1194
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-40.png
+c000000005330CFB50000000000000FF2
+t1395707829
+s4082
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-40@2x.png
+c000000005330CFB50000000000001CF3
+t1395707829
+s7411
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-50.png
+c000000005330CFB5000000000000130A
+t1395707829
+s4874
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-50@2x.png
+c000000005330CFB5000000000000258B
+t1395707829
+s9611
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-60.png
+c000000005330CFB500000000000016B3
+t1395707829
+s5811
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-60@2x.png
+c000000005330CFB50000000000002E94
+t1395707829
+s11924
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-72.png
+c000000005330CFB50000000000001350
+t1395707829
+s4944
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-72@2x.png
+c000000005330CFB50000000000002DBA
+t1395707829
+s11706
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-76.png
+c000000005330CFB50000000000001B71
+t1395707829
+s7025
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-76@2x.png
+c000000005330CFB50000000000003B9E
+t1395707829
+s15262
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-small.png
+c000000005330CFB50000000000000CDE
+t1395707829
+s3294
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-small@2x.png
+c000000005330CFB500000000000015E8
+t1395707829
+s5608
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon.png
+c000000005330CFB50000000000000F3E
+t1395707829
+s3902
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon@2x.png
+c000000005330CFB50000000000001EBD
+t1395707829
+s7869
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/splash/Default-568h@2x~iphone.png
+c000000005330CFB500000000000085B1
+t1395707829
+s34225
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/splash/Default-Landscape@2x~ipad.png
+c000000005330CFB50000000000012DF4
+t1395707829
+s77300
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/splash/Default-Landscape~ipad.png
+c000000005330CFB50000000000008877
+t1395707829
+s34935
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/splash/Default-Portrait@2x~ipad.png
+c000000005330CFB50000000000012B02
+t1395707829
+s76546
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/splash/Default-Portrait~ipad.png
+c000000005330CFB500000000000085E6
+t1395707829
+s34278
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/splash/Default@2x~iphone.png
+c000000005330CFB50000000000007323
+t1395707829
+s29475
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/splash/Default~iphone.png
+c000000005330CFB5000000000000289A
+t1395707829
+s10394
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/config.xml
+c00000000533DE6E0000000000000068F
+t1396565728
+s1679
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/demo3-Info.plist
+c00000000533DE6E00000000000000A10
+t1396565728
+s2576
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/demo3-Prefix.pch
+c000000005330CFB500000000000003BB
+t1395707829
+s955
+
+N/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/main.m
+c000000005330CFB50000000000000457
+t1395707829
+s1111
+
+N/Users/Candy/Library/MobileDevice/Provisioning Profiles/BA3A650E-485F-41C9-B75E-B232AEDE64B3.mobileprovision
+c00000000532B2A6F0000000000002D86
+t1395337839
+s11654
+
+N/var/folders/wq/002kv07s1jzc5jl7f1_2dll80000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/demo3-Prefix-fnyxkqxpbeczpnaxkchedhbnhjpj/demo3-Prefix.pch.pch
+t1395707917
+s5306688
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies7a6e416a1eeeb841^c8ee426a1eeeb841^---0#1#1#--18"Check dependencies36"C1D28CD1-8AF5-4AD4-8D35-FE81DEF371FB-
+
+CCodeSign /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app
+s418258545.375902
+e418258545.678607
+r1
+xCodeSign
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"CodeSign build/device/demo3.app31"CodeSign build/device/demo3.app618c60711eeeb841^61c5ad711eeeb841^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/0000000000000000^1079"CodeSign build/device/demo3.app    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    Using code signing identity "iPhone Developer: Jennifer McCarrick (VET4496F2Z)" and provisioning profile "demoApp" (BA3A650E-485F-41C9-B75E-B232AEDE64B3)    /usr/bin/codesign --force --sign 7B249ED2A726DE4C43DC8B6AECDCDB656072C197 --resource-rules=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/ResourceRules.plist --entitlements /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3.xcent /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app36"9DF6CD57-6E29-4CF9-8A3D-3EF8CDFF65F6-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCompileC build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/AppDelegate.o /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418258544.243296
+e418258544.675413
+r1
+xCompileC
+xbuild/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/AppDelegate.o
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Classes/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Classes/AppDelegate.m
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Classes/AppDelegate.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVViewController.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Classes/MainViewController.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Classes/AppDelegate.m185"CompileC build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/AppDelegate.o demo3/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerc87e3e701eeeb841^02f3ac701eeeb841^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Classes/AppDelegate.m0000000000000000^3546"CompileC build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/AppDelegate.o demo3/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3-generated-files.hmap -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3-own-target-headers.hmap -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3-all-target-headers.hmap -iquote /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3-project-headers.hmap -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/usr/local/lib/include -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/UninstalledProducts/include -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/DerivedSources/armv7 -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/DerivedSources -F/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device -include /var/folders/wq/002kv07s1jzc5jl7f1_2dll80000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/demo3-Prefix-fnyxkqxpbeczpnaxkchedhbnhjpj/demo3-Prefix.pch -MMD -MT dependencies -MF /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/AppDelegate.dia -c /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Classes/AppDelegate.m -o /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/AppDelegate.o36"45081B9E-AEFD-40BC-BC14-CADD68944EEF-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCompileC build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/CDVCompass.o /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Plugins/org.apache.cordova.device-orientation/CDVCompass.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418258544.362759
+e418258544.786933
+r1
+xCompileC
+xbuild/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/CDVCompass.o
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Plugins/org.apache.cordova.device-orientation/CDVCompass.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Plugins/org.apache.cordova.device-orientation/CDVCompass.m
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Plugins/org.apache.cordova.device-orientation/CDVCompass.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVShared.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Plugins/org.apache.cordova.device-orientation/CDVCompass.m221"CompileC build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/CDVCompass.o demo3/Plugins/org.apache.cordova.device-orientation/CDVCompass.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler31265d701eeeb841^ca19ca701eeeb841^---0#0#1#-19%DVTDocumentLocation2@121"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Plugins/org.apache.cordova.device-orientation/CDVCompass.m0000000000000000^3616"CompileC build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/CDVCompass.o demo3/Plugins/org.apache.cordova.device-orientation/CDVCompass.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3-generated-files.hmap -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3-own-target-headers.hmap -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3-all-target-headers.hmap -iquote /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3-project-headers.hmap -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/usr/local/lib/include -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/UninstalledProducts/include -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/DerivedSources/armv7 -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/DerivedSources -F/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device -include /var/folders/wq/002kv07s1jzc5jl7f1_2dll80000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/demo3-Prefix-fnyxkqxpbeczpnaxkchedhbnhjpj/demo3-Prefix.pch -MMD -MT dependencies -MF /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/CDVCompass.d --serialize-diagnostics /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/CDVCompass.dia -c /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Plugins/org.apache.cordova.device-orientation/CDVCompass.m -o /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/CDVCompass.o36"49197644-BBC4-4F8C-BBCE-23A297E13087-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCompileC build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/CDVDevice.o /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Plugins/org.apache.cordova.device/CDVDevice.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418258544.245144
+e418258544.593466
+r1
+xCompileC
+xbuild/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/CDVDevice.o
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Plugins/org.apache.cordova.device/CDVDevice.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Plugins/org.apache.cordova.device/CDVDevice.m
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDV.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVViewController.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVDebug.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVTimer.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/NSData+Base64.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVJSON.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Plugins/org.apache.cordova.device/CDVDevice.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Plugins/org.apache.cordova.device/CDVDevice.m207"CompileC build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/CDVDevice.o demo3/Plugins/org.apache.cordova.device/CDVDevice.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler05f83e701eeeb841^9eef97701eeeb841^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Plugins/org.apache.cordova.device/CDVDevice.m0000000000000000^3586"CompileC build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/CDVDevice.o demo3/Plugins/org.apache.cordova.device/CDVDevice.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3-generated-files.hmap -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3-own-target-headers.hmap -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3-all-target-headers.hmap -iquote /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3-project-headers.hmap -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/usr/local/lib/include -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/UninstalledProducts/include -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/DerivedSources/armv7 -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/DerivedSources -F/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device -include /var/folders/wq/002kv07s1jzc5jl7f1_2dll80000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/demo3-Prefix-fnyxkqxpbeczpnaxkchedhbnhjpj/demo3-Prefix.pch -MMD -MT dependencies -MF /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/CDVDevice.d --serialize-diagnostics /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/CDVDevice.dia -c /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Plugins/org.apache.cordova.device/CDVDevice.m -o /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/CDVDevice.o36"23A09C7E-2CC1-4738-AC83-8AE9C2148E69-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCompileC build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/CDVLocation.o /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Plugins/org.apache.cordova.geolocation/CDVLocation.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418258544.594281
+e418258544.901289
+r1
+xCompileC
+xbuild/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/CDVLocation.o
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Plugins/org.apache.cordova.geolocation/CDVLocation.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Plugins/org.apache.cordova.geolocation/CDVLocation.m
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Plugins/org.apache.cordova.geolocation/CDVLocation.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVShared.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Plugins/org.apache.cordova.geolocation/CDVLocation.m216"CompileC build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/CDVLocation.o demo3/Plugins/org.apache.cordova.geolocation/CDVLocation.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler1a5398701eeeb841^b2bde6701eeeb841^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Plugins/org.apache.cordova.geolocation/CDVLocation.m0000000000000000^3608"CompileC build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/CDVLocation.o demo3/Plugins/org.apache.cordova.geolocation/CDVLocation.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3-generated-files.hmap -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3-own-target-headers.hmap -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3-all-target-headers.hmap -iquote /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3-project-headers.hmap -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/usr/local/lib/include -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/UninstalledProducts/include -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/DerivedSources/armv7 -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/DerivedSources -F/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device -include /var/folders/wq/002kv07s1jzc5jl7f1_2dll80000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/demo3-Prefix-fnyxkqxpbeczpnaxkchedhbnhjpj/demo3-Prefix.pch -MMD -MT dependencies -MF /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/CDVLocation.d --serialize-diagnostics /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/CDVLocation.dia -c /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Plugins/org.apache.cordova.geolocation/CDVLocation.m -o /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/CDVLocation.o36"58B4C8AC-CAD7-4DB0-9484-1EB3637261A0-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCompileC build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/MainViewController.o /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418258544.243999
+e418258544.735314
+r1
+xCompileC
+xbuild/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/MainViewController.o
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Classes/MainViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Classes/MainViewController.m
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Classes/MainViewController.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVViewController.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Classes/MainViewController.m199"CompileC build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/MainViewController.o demo3/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerb2d83e701eeeb841^533ebc701eeeb841^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Classes/MainViewController.m0000000000000000^3588"CompileC build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/MainViewController.o demo3/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3-generated-files.hmap -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3-own-target-headers.hmap -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3-all-target-headers.hmap -iquote /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3-project-headers.hmap -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/usr/local/lib/include -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/UninstalledProducts/include -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/DerivedSources/armv7 -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/DerivedSources -F/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device -include /var/folders/wq/002kv07s1jzc5jl7f1_2dll80000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/demo3-Prefix-fnyxkqxpbeczpnaxkchedhbnhjpj/demo3-Prefix.pch -MMD -MT dependencies -MF /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/MainViewController.d --serialize-diagnostics /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/MainViewController.dia -c /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Classes/MainViewController.m -o /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/MainViewController.o36"C2F22D63-7742-4E85-AFCA-D804866C65BE-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCompileC build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/main.o /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s418258544.242516
+e418258544.361289
+r1
+xCompileC
+xbuild/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/main.o
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/main.m163"CompileC build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/main.o demo3/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler71543e701eeeb841^de8e5c701eeeb841^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/main.m0000000000000000^3488"CompileC build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/main.o demo3/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3-generated-files.hmap -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3-own-target-headers.hmap -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3-all-target-headers.hmap -iquote /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3-project-headers.hmap -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/usr/local/lib/include -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/UninstalledProducts/include -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/DerivedSources/armv7 -I/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/DerivedSources -F/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device -include /var/folders/wq/002kv07s1jzc5jl7f1_2dll80000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/demo3-Prefix-fnyxkqxpbeczpnaxkchedhbnhjpj/demo3-Prefix.pch -MMD -MT dependencies -MF /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/main.dia -c /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/main.m -o /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/main.o36"F8A33FD8-FAE2-4926-AFD6-3CC7C5D432E1-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCompileXIB /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Classes/MainViewController.xib
+s418258538.626512
+e418258544.235411
+r1
+xCompileXIB
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Classes/MainViewController.xib
+o2014-04-03 18:55:42.562 Interface Builder Cocoa Touch Tool[2970:303] CFPreferences: user home directory at file:///Users/Candy/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compiling /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Classes/MainViewController.xib47"CompileXIB demo3/Classes/MainViewController.xib747ca06a1eeeb841^2c473c701eeeb841^-229"2014-04-03 18:55:42.562 Interface Builder Cocoa Touch Tool[2970:303] CFPreferences: user home directory at file:///Users/Candy/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#1#-19%DVTDocumentLocation2@93"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Classes/MainViewController.xib0000000000000000^863"CompileXIB demo3/Classes/MainViewController.xib    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 5.0 --output-format human-readable-text --compile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/MainViewController.nib /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Classes/MainViewController.xib36"4ADA1509-8EEA-4E1F-8C0A-A113AAC187E0-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default-568h@2x~iphone.png demo3/Resources/splash/Default-568h@2x~iphone.png
+s418258539.765938
+e418258540.067688
+r1
+xCopyPNGFile
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default-568h@2x~iphone.png
+xdemo3/Resources/splash/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"CopyPNGFile build/device/demo3.app/Default-568h@2x~iphone.png demo3/Resources/splash/Default-568h@2x~iphone.png111"CopyPNGFile build/device/demo3.app/Default-568h@2x~iphone.png demo3/Resources/splash/Default-568h@2x~iphone.png19acc46b1eeeb841^849a116c1eeeb841^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/splash/Default-568h@2x~iphone.png0000000000000000^795"CopyPNGFile build/device/demo3.app/Default-568h@2x~iphone.png demo3/Resources/splash/Default-568h@2x~iphone.png    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/splash/Default-568h@2x~iphone.png /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default-568h@2x~iphone.png36"DA8566A6-8C5B-4978-8EE2-17CEE3F74689-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default-Landscape@2x~ipad.png demo3/Resources/splash/Default-Landscape@2x~ipad.png
+s418258538.727730
+e418258539.673335
+r1
+xCopyPNGFile
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default-Landscape@2x~ipad.png
+xdemo3/Resources/splash/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"CopyPNGFile build/device/demo3.app/Default-Landscape@2x~ipad.png demo3/Resources/splash/Default-Landscape@2x~ipad.png117"CopyPNGFile build/device/demo3.app/Default-Landscape@2x~ipad.png demo3/Resources/splash/Default-Landscape@2x~ipad.png2462ba6a1eeeb841^925eac6b1eeeb841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/splash/Default-Landscape@2x~ipad.png0000000000000000^807"CopyPNGFile build/device/demo3.app/Default-Landscape@2x~ipad.png demo3/Resources/splash/Default-Landscape@2x~ipad.png    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/splash/Default-Landscape@2x~ipad.png /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default-Landscape@2x~ipad.png36"4DFA72D9-B1D0-458D-BE51-A417B415F218-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default-Landscape~ipad.png demo3/Resources/splash/Default-Landscape~ipad.png
+s418258538.744625
+e418258539.030857
+r1
+xCopyPNGFile
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default-Landscape~ipad.png
+xdemo3/Resources/splash/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"CopyPNGFile build/device/demo3.app/Default-Landscape~ipad.png demo3/Resources/splash/Default-Landscape~ipad.png111"CopyPNGFile build/device/demo3.app/Default-Landscape~ipad.png demo3/Resources/splash/Default-Landscape~ipad.png96b4be6a1eeeb841^c5e6076b1eeeb841^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/splash/Default-Landscape~ipad.png0000000000000000^795"CopyPNGFile build/device/demo3.app/Default-Landscape~ipad.png demo3/Resources/splash/Default-Landscape~ipad.png    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/splash/Default-Landscape~ipad.png /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default-Landscape~ipad.png36"D955AB25-9524-4B97-9912-A9FBB125764C-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default-Portrait@2x~ipad.png demo3/Resources/splash/Default-Portrait@2x~ipad.png
+s418258538.774755
+e418258539.920009
+r1
+xCopyPNGFile
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default-Portrait@2x~ipad.png
+xdemo3/Resources/splash/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"CopyPNGFile build/device/demo3.app/Default-Portrait@2x~ipad.png demo3/Resources/splash/Default-Portrait@2x~ipad.png115"CopyPNGFile build/device/demo3.app/Default-Portrait@2x~ipad.png demo3/Resources/splash/Default-Portrait@2x~ipad.pngbd00c76a1eeeb841^6a87eb6b1eeeb841^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/splash/Default-Portrait@2x~ipad.png0000000000000000^803"CopyPNGFile build/device/demo3.app/Default-Portrait@2x~ipad.png demo3/Resources/splash/Default-Portrait@2x~ipad.png    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/splash/Default-Portrait@2x~ipad.png /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default-Portrait@2x~ipad.png36"F1BF5354-A6D1-467B-9BA4-DA55CC0A263D-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default-Portrait~ipad.png demo3/Resources/splash/Default-Portrait~ipad.png
+s418258539.101609
+e418258539.336959
+r1
+xCopyPNGFile
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default-Portrait~ipad.png
+xdemo3/Resources/splash/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"CopyPNGFile build/device/demo3.app/Default-Portrait~ipad.png demo3/Resources/splash/Default-Portrait~ipad.png109"CopyPNGFile build/device/demo3.app/Default-Portrait~ipad.png demo3/Resources/splash/Default-Portrait~ipad.png8f6c1a6b1eeeb841^6971566b1eeeb841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/splash/Default-Portrait~ipad.png0000000000000000^791"CopyPNGFile build/device/demo3.app/Default-Portrait~ipad.png demo3/Resources/splash/Default-Portrait~ipad.png    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/splash/Default-Portrait~ipad.png /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default-Portrait~ipad.png36"105F32DF-93EC-40FC-BDAB-3DC7D3B7886E-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default@2x~iphone.png demo3/Resources/splash/Default@2x~iphone.png
+s418258539.425076
+e418258539.674124
+r1
+xCopyPNGFile
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default@2x~iphone.png
+xdemo3/Resources/splash/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"CopyPNGFile build/device/demo3.app/Default@2x~iphone.png demo3/Resources/splash/Default@2x~iphone.png101"CopyPNGFile build/device/demo3.app/Default@2x~iphone.png demo3/Resources/splash/Default@2x~iphone.png18ea6c6b1eeeb841^04a9ac6b1eeeb841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/splash/Default@2x~iphone.png0000000000000000^775"CopyPNGFile build/device/demo3.app/Default@2x~iphone.png demo3/Resources/splash/Default@2x~iphone.png    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/splash/Default@2x~iphone.png /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default@2x~iphone.png36"3559B474-3EA1-4017-A836-9ECF14C90E24-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default~iphone.png demo3/Resources/splash/Default~iphone.png
+s418258539.674546
+e418258539.820067
+r1
+xCopyPNGFile
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default~iphone.png
+xdemo3/Resources/splash/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"CopyPNGFile build/device/demo3.app/Default~iphone.png demo3/Resources/splash/Default~iphone.png95"CopyPNGFile build/device/demo3.app/Default~iphone.png demo3/Resources/splash/Default~iphone.png05c4ac6b1eeeb841^6b46d26b1eeeb841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/splash/Default~iphone.png0000000000000000^763"CopyPNGFile build/device/demo3.app/Default~iphone.png demo3/Resources/splash/Default~iphone.png    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/splash/Default~iphone.png /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Default~iphone.png36"25A23358-73D2-48E1-A852-5D2091D14C89-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-40.png demo3/Resources/icons/icon-40.png
+s418258539.337178
+e418258539.424834
+r1
+xCopyPNGFile
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-40.png
+xdemo3/Resources/icons/icon-40.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"CopyPNGFile build/device/demo3.app/icon-40.png demo3/Resources/icons/icon-40.png80"CopyPNGFile build/device/demo3.app/icon-40.png demo3/Resources/icons/icon-40.png9c69566b1eeeb841^00c56c6b1eeeb841^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-40.png0000000000000000^733"CopyPNGFile build/device/demo3.app/icon-40.png demo3/Resources/icons/icon-40.png    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-40.png /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-40.png36"B2B8C517-FB8B-46F6-96E4-6D68B386FDFB-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-40@2x.png demo3/Resources/icons/icon-40@2x.png
+s418258538.521269
+e418258538.624971
+r1
+xCopyPNGFile
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-40@2x.png
+xdemo3/Resources/icons/icon-40@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"CopyPNGFile build/device/demo3.app/icon-40@2x.png demo3/Resources/icons/icon-40@2x.png86"CopyPNGFile build/device/demo3.app/icon-40@2x.png demo3/Resources/icons/icon-40@2x.pngcf85856a1eeeb841^5dfe9f6a1eeeb841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-40@2x.png0000000000000000^745"CopyPNGFile build/device/demo3.app/icon-40@2x.png demo3/Resources/icons/icon-40@2x.png    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-40@2x.png /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-40@2x.png36"6EE3658A-EF60-451B-8066-F6BAD9562A06-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-50.png demo3/Resources/icons/icon-50.png
+s418258538.627999
+e418258538.722864
+r1
+xCopyPNGFile
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-50.png
+xdemo3/Resources/icons/icon-50.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"CopyPNGFile build/device/demo3.app/icon-50.png demo3/Resources/icons/icon-50.png80"CopyPNGFile build/device/demo3.app/icon-50.png demo3/Resources/icons/icon-50.pngace3a06a1eeeb841^1e70b96a1eeeb841^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-50.png0000000000000000^733"CopyPNGFile build/device/demo3.app/icon-50.png demo3/Resources/icons/icon-50.png    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-50.png /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-50.png36"CE6B6723-74E0-4924-90C2-1FE1F06616D2-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-50@2x.png demo3/Resources/icons/icon-50@2x.png
+s418258539.821380
+e418258539.911249
+r1
+xCopyPNGFile
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-50@2x.png
+xdemo3/Resources/icons/icon-50@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"CopyPNGFile build/device/demo3.app/icon-50@2x.png demo3/Resources/icons/icon-50@2x.png86"CopyPNGFile build/device/demo3.app/icon-50@2x.png demo3/Resources/icons/icon-50@2x.pngc573d26b1eeeb841^f147e96b1eeeb841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-50@2x.png0000000000000000^745"CopyPNGFile build/device/demo3.app/icon-50@2x.png demo3/Resources/icons/icon-50@2x.png    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-50@2x.png /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-50@2x.png36"068E36D6-AFBB-48FF-AF11-57FA652B6135-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-60.png demo3/Resources/icons/icon-60.png
+s418258539.675521
+e418258539.763806
+r1
+xCopyPNGFile
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-60.png
+xdemo3/Resources/icons/icon-60.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"CopyPNGFile build/device/demo3.app/icon-60.png demo3/Resources/icons/icon-60.png80"CopyPNGFile build/device/demo3.app/icon-60.png demo3/Resources/icons/icon-60.pnge109ad6b1eeeb841^e3a9c36b1eeeb841^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-60.png0000000000000000^733"CopyPNGFile build/device/demo3.app/icon-60.png demo3/Resources/icons/icon-60.png    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-60.png /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-60.png36"B7127455-8401-4E72-BCB7-58CD063DB5D1-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-60@2x.png demo3/Resources/icons/icon-60@2x.png
+s418258538.628878
+e418258538.744462
+r1
+xCopyPNGFile
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-60@2x.png
+xdemo3/Resources/icons/icon-60@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"CopyPNGFile build/device/demo3.app/icon-60@2x.png demo3/Resources/icons/icon-60@2x.png86"CopyPNGFile build/device/demo3.app/icon-60@2x.png demo3/Resources/icons/icon-60@2x.png9f5aa16a1eeeb841^3195be6a1eeeb841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-60@2x.png0000000000000000^745"CopyPNGFile build/device/demo3.app/icon-60@2x.png demo3/Resources/icons/icon-60@2x.png    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-60@2x.png /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-60@2x.png36"C8C2BEC5-FED1-499B-8CAE-3FD8DB85F858-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-72.png demo3/Resources/icons/icon-72.png
+s418258538.522831
+e418258538.624267
+r1
+xCopyPNGFile
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-72.png
+xdemo3/Resources/icons/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"CopyPNGFile build/device/demo3.app/icon-72.png demo3/Resources/icons/icon-72.png80"CopyPNGFile build/device/demo3.app/icon-72.png demo3/Resources/icons/icon-72.png0bf0856a1eeeb841^9ed09f6a1eeeb841^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-72.png0000000000000000^733"CopyPNGFile build/device/demo3.app/icon-72.png demo3/Resources/icons/icon-72.png    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-72.png /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-72.png36"CEDB70B3-80FB-4F40-9872-DE61CA23B30B-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-72@2x.png demo3/Resources/icons/icon-72@2x.png
+s418258539.920375
+e418258540.013305
+r1
+xCopyPNGFile
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-72@2x.png
+xdemo3/Resources/icons/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"CopyPNGFile build/device/demo3.app/icon-72@2x.png demo3/Resources/icons/icon-72@2x.png86"CopyPNGFile build/device/demo3.app/icon-72@2x.png demo3/Resources/icons/icon-72@2x.png0bb4eb6b1eeeb841^cb69036c1eeeb841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-72@2x.png0000000000000000^745"CopyPNGFile build/device/demo3.app/icon-72@2x.png demo3/Resources/icons/icon-72@2x.png    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-72@2x.png /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-72@2x.png36"B1D24536-F24D-403A-B4A7-62DDBCE8485D-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-76.png demo3/Resources/icons/icon-76.png
+s418258538.521153
+e418258538.625982
+r1
+xCopyPNGFile
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-76.png
+xdemo3/Resources/icons/icon-76.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"CopyPNGFile build/device/demo3.app/icon-76.png demo3/Resources/icons/icon-76.png80"CopyPNGFile build/device/demo3.app/icon-76.png demo3/Resources/icons/icon-76.png018a856a1eeeb841^ea42a06a1eeeb841^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-76.png0000000000000000^733"CopyPNGFile build/device/demo3.app/icon-76.png demo3/Resources/icons/icon-76.png    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-76.png /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-76.png36"FEA12838-1CFC-4D9D-8226-8F546A2BB3FF-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-76@2x.png demo3/Resources/icons/icon-76@2x.png
+s418258539.912439
+e418258540.019434
+r1
+xCopyPNGFile
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-76@2x.png
+xdemo3/Resources/icons/icon-76@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"CopyPNGFile build/device/demo3.app/icon-76@2x.png demo3/Resources/icons/icon-76@2x.png86"CopyPNGFile build/device/demo3.app/icon-76@2x.png demo3/Resources/icons/icon-76@2x.png8fabe96b1eeeb841^8bfa046c1eeeb841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-76@2x.png0000000000000000^745"CopyPNGFile build/device/demo3.app/icon-76@2x.png demo3/Resources/icons/icon-76@2x.png    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-76@2x.png /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-76@2x.png36"5625ABB4-22FA-4DB9-ADE0-B7A73D652D33-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-small.png demo3/Resources/icons/icon-small.png
+s418258538.725286
+e418258538.773418
+r1
+xCopyPNGFile
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-small.png
+xdemo3/Resources/icons/icon-small.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"CopyPNGFile build/device/demo3.app/icon-small.png demo3/Resources/icons/icon-small.png86"CopyPNGFile build/device/demo3.app/icon-small.png demo3/Resources/icons/icon-small.png53ccb96a1eeeb841^5229c66a1eeeb841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-small.png0000000000000000^745"CopyPNGFile build/device/demo3.app/icon-small.png demo3/Resources/icons/icon-small.png    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-small.png /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-small.png36"B4548563-20E0-42B7-9CB0-A4A2C9F1B3AB-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-small@2x.png demo3/Resources/icons/icon-small@2x.png
+s418258539.033644
+e418258539.101319
+r1
+xCopyPNGFile
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-small@2x.png
+xdemo3/Resources/icons/icon-small@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"CopyPNGFile build/device/demo3.app/icon-small@2x.png demo3/Resources/icons/icon-small@2x.png92"CopyPNGFile build/device/demo3.app/icon-small@2x.png demo3/Resources/icons/icon-small@2x.png0306096b1eeeb841^90f4196b1eeeb841^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-small@2x.png0000000000000000^757"CopyPNGFile build/device/demo3.app/icon-small@2x.png demo3/Resources/icons/icon-small@2x.png    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon-small@2x.png /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon-small@2x.png36"1F5F3E92-5375-4211-9651-57479E67D2D6-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon.png demo3/Resources/icons/icon.png
+s418258538.523561
+e418258538.625259
+r1
+xCopyPNGFile
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon.png
+xdemo3/Resources/icons/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"CopyPNGFile build/device/demo3.app/icon.png demo3/Resources/icons/icon.png74"CopyPNGFile build/device/demo3.app/icon.png demo3/Resources/icons/icon.png3f1a866a1eeeb841^412ba06a1eeeb841^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon.png0000000000000000^721"CopyPNGFile build/device/demo3.app/icon.png demo3/Resources/icons/icon.png    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon.png /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon.png36"C0F85BB6-8DCC-4E56-8CFC-DCB70C8AB9EF-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCopyPNGFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon@2x.png demo3/Resources/icons/icon@2x.png
+s418258538.625519
+e418258538.721485
+r1
+xCopyPNGFile
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon@2x.png
+xdemo3/Resources/icons/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"CopyPNGFile build/device/demo3.app/icon@2x.png demo3/Resources/icons/icon@2x.png80"CopyPNGFile build/device/demo3.app/icon@2x.png demo3/Resources/icons/icon@2x.png4a40a06a1eeeb841^29b4b86a1eeeb841^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon@2x.png0000000000000000^733"CopyPNGFile build/device/demo3.app/icon@2x.png demo3/Resources/icons/icon@2x.png    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/icons/icon@2x.png /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/icon@2x.png36"214F582A-FD6A-46AF-9742-3315BE9B5945-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCopyStringsFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/de.lproj/Localizable.strings demo3/Resources/de.lproj/Localizable.strings
+s418258538.721711
+e418258538.727517
+r1
+xCopyStringsFile
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/de.lproj/Localizable.strings
+xdemo3/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy demo3/Resources/de.lproj/Localizable.strings112"CopyStringsFile build/device/demo3.app/de.lproj/Localizable.strings demo3/Resources/de.lproj/Localizable.strings0adab86a1eeeb841^406bba6a1eeeb841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/de.lproj/Localizable.strings0000000000000000^705"CopyStringsFile build/device/demo3.app/de.lproj/Localizable.strings demo3/Resources/de.lproj/Localizable.strings    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/de.lproj -- demo3/Resources/de.lproj/Localizable.strings36"344B644B-63CB-4F60-AF11-3949218D3887-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCopyStringsFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/en.lproj/Localizable.strings demo3/Resources/en.lproj/Localizable.strings
+s418258538.625719
+e418258538.628707
+r1
+xCopyStringsFile
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/en.lproj/Localizable.strings
+xdemo3/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy demo3/Resources/en.lproj/Localizable.strings112"CopyStringsFile build/device/demo3.app/en.lproj/Localizable.strings demo3/Resources/en.lproj/Localizable.stringsa565a06a1eeeb841^45f3a06a1eeeb841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/Resources/en.lproj/Localizable.strings0000000000000000^705"CopyStringsFile build/device/demo3.app/en.lproj/Localizable.strings demo3/Resources/en.lproj/Localizable.strings    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/en.lproj -- demo3/Resources/en.lproj/Localizable.strings36"532B5E04-C74C-4A6A-ACCB-AA4AF17C4C5E-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/device/demo3.app/ResourceRules.plist
+s418258538.264686
+e418258538.266301
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+xbuild/device/demo3.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/device/demo3.app/ResourceRules.plist175"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/device/demo3.app/ResourceRules.plist56d5436a1eeeb841^793d446a1eeeb841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/ResourceRules.plist003420c9dcffdf42^855"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist build/device/demo3.app/ResourceRules.plist    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app36"CE3219F5-C192-4D3B-8AE4-65221C90295B-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CCpResource demo3/config.xml build/device/demo3.app/config.xml
+s418258538.520941
+e418258538.523369
+r1
+xCpResource
+xdemo3/config.xml
+xbuild/device/demo3.app/config.xml
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy build/device/demo3.app/config.xml61"CpResource demo3/config.xml build/device/demo3.app/config.xml3d7c856a1eeeb841^6022866a1eeeb841^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/config.xml003420c9dcffdf42^686"CpResource demo3/config.xml build/device/demo3.app/config.xml    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/config.xml /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app36"698A71FB-44B7-4BC4-BF88-8EC9531B056F-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CGenerateDSYMFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app.dSYM /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/demo3
+s418258545.225757
+e418258545.343874
+r1
+xGenerateDSYMFile
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app.dSYM
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/demo3
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Generate /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app.dSYM73"GenerateDSYMFile build/device/demo3.app.dSYM build/device/demo3.app/demo381e839711eeeb841^e62058711eeeb841^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app.dSYM003420c9dcffdf42^706"GenerateDSYMFile build/device/demo3.app.dSYM build/device/demo3.app/demo3    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/demo3 -o /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app.dSYM36"008AE5D0-ABA2-46CF-B6F3-0CB4BDB5BE7E-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CLd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/demo3 normal armv7
+s418258544.903987
+e418258545.223471
+r1
+xLd
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/demo3
+xnormal
+xarmv7
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/demo3.LinkFileList
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/libCordova.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/crt1.3.1.o
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/main.o
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/AppDelegate.o
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/MainViewController.o
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/CDVDevice.o
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/CDVCompass.o
+d/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/CDVLocation.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphoneos.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Link /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/demo344"Ld build/device/demo3.app/demo3 normal armv7f695e7701eeeb841^c63639711eeeb841^---0#0#1#--1679"Ld build/device/demo3.app/demo3 normal armv7    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export IPHONEOS_DEPLOYMENT_TARGET=5.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device -F/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device -filelist /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/demo3.LinkFileList -dead_strip -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=5.0 -framework AssetsLibrary /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/libCordova.a -framework CoreGraphics -framework MobileCoreServices -framework CoreLocation -Xlinker -dependency_info -Xlinker /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/demo3_dependency_info.dat -o /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/demo336"79DDC4E3-8FC1-4EF9-B20D-8C2869B23CF9-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CPhaseScriptExecution Copy\ www\ directory /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Script-304B58A110DAC018002A0835.sh
+s418258538.268864
+e418258538.520254
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.214s
+ouser	0m0.053s
+osys	0m0.106s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'121"PhaseScriptExecution Copy\ www\ directory build/demo3.build/Debug-iphoneos/demo3.build/Script-304B58A110DAC018002A0835.sh4dba456a1eeeb841^083b856a1eeeb841^-42"real	0m0.214suser	0m0.053ssys	0m0.106s3(21%IDEActivityLogMessage2@14"real	0m0.214s-418258538#1#14#-0#-----2@14"user	0m0.053s-418258538#15#14#-0#-----2@13"sys	0m0.106s-418258538#29#13#-0#-----0#0#1#--21737"PhaseScriptExecution Copy\ www\ directory build/demo3.build/Debug-iphoneos/demo3.build/Script-304B58A110DAC018002A0835.sh    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export ACTION=build    export AD_HOC_CODE_SIGNING_ALLOWED=NO    export ALTERNATE_GROUP=staff    export ALTERNATE_MODE=u+w,go-w,a+rX    export ALTERNATE_OWNER=Candy    export ALWAYS_SEARCH_USER_PATHS=NO    export ALWAYS_USE_SEPARATE_HEADERMAPS=YES    export APPLE_INTERNAL_DEVELOPER_DIR=/AppleInternal/Developer    export APPLE_INTERNAL_DIR=/AppleInternal    export APPLE_INTERNAL_DOCUMENTATION_DIR=/AppleInternal/Documentation    export APPLE_INTERNAL_LIBRARY_DIR=/AppleInternal/Library    export APPLE_INTERNAL_TOOLS=/AppleInternal/Developer/Tools    export APPLY_RULES_IN_COPY_FILES=NO    export ARCHS=armv7    export ARCHS_STANDARD="armv7 armv7s arm64"    export ARCHS_STANDARD_32_64_BIT="armv7 armv7s arm64"    export ARCHS_STANDARD_32_BIT="armv7 armv7s"    export ARCHS_STANDARD_64_BIT=arm64    export ARCHS_STANDARD_INCLUDING_64_BIT="armv7 armv7s arm64"    export ARCHS_UNIVERSAL_IPHONE_OS="armv7 armv7s arm64"    export AVAILABLE_PLATFORMS="iphonesimulator macosx iphoneos"    export BUILD_COMPONENTS="headers build"    export BUILD_DIR=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build    export BUILD_ROOT=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build    export BUILD_STYLE=    export BUILD_VARIANTS=normal    export BUILT_PRODUCTS_DIR=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device    export CACHE_ROOT=/var/folders/wq/002kv07s1jzc5jl7f1_2dll80000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode    export CCHROOT=/var/folders/wq/002kv07s1jzc5jl7f1_2dll80000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode    export CHMOD=/bin/chmod    export CHOWN=/usr/sbin/chown    export CLANG_ENABLE_OBJC_ARC=YES    export CLANG_WARN_BOOL_CONVERSION=YES    export CLANG_WARN_CONSTANT_CONVERSION=YES    export CLANG_WARN_EMPTY_BODY=YES    export CLANG_WARN_ENUM_CONVERSION=YES    export CLANG_WARN_INT_CONVERSION=YES    export CLANG_WARN__DUPLICATE_METHOD_MATCH=YES    export CLASS_FILE_DIR=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/JavaClasses    export CLEAN_PRECOMPS=YES    export CLONE_HEADERS=NO    export CODESIGNING_FOLDER_PATH=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app    export CODE_SIGNING_ALLOWED=YES    export CODE_SIGNING_REQUIRED=YES    export CODE_SIGN_CONTEXT_CLASS=XCiPhoneOSCodeSignContext    export CODE_SIGN_IDENTITY="iPhone Developer"    export COLOR_DIAGNOSTICS=NO    export COMBINE_HIDPI_IMAGES=NO    export COMMAND_MODE=legacy    export COMPOSITE_SDK_DIRS=/var/folders/wq/002kv07s1jzc5jl7f1_2dll80000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/CompositeSDKs    export COMPRESS_PNG_FILES=YES    export CONFIGURATION=Debug    export CONFIGURATION_BUILD_DIR=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device    export CONFIGURATION_TEMP_DIR=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos    export CONTENTS_FOLDER_PATH=demo3.app    export COPYING_PRESERVES_HFS_DATA=NO    export COPY_PHASE_STRIP=NO    export COPY_RESOURCES_FROM_STATIC_FRAMEWORKS=YES    export CP=/bin/cp    export CREATE_INFOPLIST_SECTION_IN_BINARY=NO    export CURRENT_ARCH=armv7    export CURRENT_VARIANT=normal    export DEAD_CODE_STRIPPING=YES    export DEBUGGING_SYMBOLS=YES    export DEBUG_INFORMATION_FORMAT=dwarf-with-dsym    export DEFAULT_COMPILER=com.apple.compilers.llvm.clang.1_0    export DEFAULT_KEXT_INSTALL_PATH=/System/Library/Extensions    export DEPLOYMENT_LOCATION=NO    export DEPLOYMENT_POSTPROCESSING=NO    export DERIVED_FILES_DIR=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/DerivedSources    export DERIVED_FILE_DIR=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/DerivedSources    export DERIVED_SOURCES_DIR=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/DerivedSources    export DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Applications    export DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin    export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer    export DEVELOPER_FRAMEWORKS_DIR=/Applications/Xcode.app/Contents/Developer/Library/Frameworks    export DEVELOPER_FRAMEWORKS_DIR_QUOTED=/Applications/Xcode.app/Contents/Developer/Library/Frameworks    export DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/Developer/Library    export DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    export DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Tools    export DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr    export DEVELOPMENT_LANGUAGE=English    export DOCUMENTATION_FOLDER_PATH=demo3.app/English.lproj/Documentation    export DO_HEADER_SCANNING_IN_JAM=NO    export DSTROOT=/tmp/demo3.dst    export DT_TOOLCHAIN_DIR=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    export DWARF_DSYM_FILE_NAME=demo3.app.dSYM    export DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT=NO    export DWARF_DSYM_FOLDER_PATH=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device    export EFFECTIVE_PLATFORM_NAME=-iphoneos    export EMBEDDED_PROFILE_NAME=embedded.mobileprovision    export ENABLE_HEADER_DEPENDENCIES=YES    export ENTITLEMENTS_ALLOWED=YES    export ENTITLEMENTS_REQUIRED=YES    export EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS=".DS_Store .svn .git .hg CVS"    export EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES="*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    export EXECUTABLES_FOLDER_PATH=demo3.app/Executables    export EXECUTABLE_FOLDER_PATH=demo3.app    export EXECUTABLE_NAME=demo3    export EXECUTABLE_PATH=demo3.app/demo3    export FILE_LIST=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects/LinkFileList    export FIXED_FILES_DIR=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/FixedFiles    export FRAMEWORKS_FOLDER_PATH=demo3.app/Frameworks    export FRAMEWORK_FLAG_PREFIX=-framework    export FRAMEWORK_SEARCH_PATHS="/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device "    export FRAMEWORK_VERSION=A    export FULL_PRODUCT_NAME=demo3.app    export GCC3_VERSION=3.3    export GCC_C_LANGUAGE_STANDARD=c99    export GCC_DYNAMIC_NO_PIC=NO    export GCC_INLINES_ARE_PRIVATE_EXTERN=YES    export GCC_OPTIMIZATION_LEVEL=0    export GCC_PFE_FILE_C_DIALECTS="c objective-c c++ objective-c++"    export GCC_PRECOMPILE_PREFIX_HEADER=YES    export GCC_PREFIX_HEADER=demo3/demo3-Prefix.pch    export GCC_SYMBOLS_PRIVATE_EXTERN=YES    export GCC_THUMB_SUPPORT=NO    export GCC_TREAT_WARNINGS_AS_ERRORS=NO    export GCC_VERSION=com.apple.compilers.llvm.clang.1_0    export GCC_VERSION_IDENTIFIER=com_apple_compilers_llvm_clang_1_0    export GCC_WARN_ABOUT_RETURN_TYPE=YES    export GCC_WARN_UNDECLARED_SELECTOR=YES    export GCC_WARN_UNINITIALIZED_AUTOS=YES    export GCC_WARN_UNUSED_FUNCTION=YES    export GCC_WARN_UNUSED_VARIABLE=YES    export GENERATE_MASTER_OBJECT_FILE=NO    export GENERATE_PKGINFO_FILE=YES    export GENERATE_PROFILING_CODE=NO    export GID=20    export GROUP=staff    export HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT=YES    export HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES=YES    export HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS=YES    export HEADERMAP_INCLUDES_PROJECT_HEADERS=YES    export HEADER_SEARCH_PATHS="/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/include \"/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/usr/local/lib/include\" \"/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/UninstalledProducts/include\" \"/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device\""    export ICONV=/usr/bin/iconv    export INFOPLIST_EXPAND_BUILD_SETTINGS=YES    export INFOPLIST_FILE=demo3/demo3-Info.plist    export INFOPLIST_OUTPUT_FORMAT=binary    export INFOPLIST_PATH=demo3.app/Info.plist    export INFOPLIST_PREPROCESS=NO    export INFOSTRINGS_PATH=demo3.app/English.lproj/InfoPlist.strings    export INSTALL_DIR=/tmp/demo3.dst/Applications    export INSTALL_GROUP=staff    export INSTALL_MODE_FLAG=u+w,go-w,a+rX    export INSTALL_OWNER=Candy    export INSTALL_PATH=/Applications    export INSTALL_ROOT=/tmp/demo3.dst    export IPHONEOS_DEPLOYMENT_TARGET=5.0    export JAVAC_DEFAULT_FLAGS="-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    export JAVA_APP_STUB=/System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    export JAVA_ARCHIVE_CLASSES=YES    export JAVA_ARCHIVE_TYPE=JAR    export JAVA_COMPILER=/usr/bin/javac    export JAVA_FOLDER_PATH=demo3.app/Java    export JAVA_FRAMEWORK_RESOURCES_DIRS=Resources    export JAVA_JAR_FLAGS=cv    export JAVA_SOURCE_SUBDIR=.    export JAVA_USE_DEPENDENCIES=YES    export JAVA_ZIP_FLAGS=-urg    export JIKES_DEFAULT_FLAGS="+E +OLDCSO"    export KEEP_PRIVATE_EXTERNS=NO    export LD_DEPENDENCY_INFO_FILE=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/demo3_dependency_info.dat    export LD_GENERATE_MAP_FILE=NO    export LD_MAP_FILE_PATH=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3-LinkMap-normal-armv7.txt    export LD_NO_PIE=NO    export LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER=YES    export LEGACY_DEVELOPER_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    export LEX=lex    export LIBRARY_FLAG_NOSPACE=YES    export LIBRARY_FLAG_PREFIX=-l    export LIBRARY_KEXT_INSTALL_PATH=/Library/Extensions    export LIBRARY_SEARCH_PATHS="/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device "    export LINKER_DISPLAYS_MANGLED_NAMES=NO    export LINK_FILE_LIST_normal_armv7=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal/armv7/demo3.LinkFileList    export LINK_WITH_STANDARD_LIBRARIES=YES    export LOCALIZED_RESOURCES_FOLDER_PATH=demo3.app/English.lproj    export LOCAL_ADMIN_APPS_DIR=/Applications/Utilities    export LOCAL_APPS_DIR=/Applications    export LOCAL_DEVELOPER_DIR=/Library/Developer    export LOCAL_LIBRARY_DIR=/Library    export MACH_O_TYPE=mh_execute    export MAC_OS_X_PRODUCT_BUILD_VERSION=13C64    export MAC_OS_X_VERSION_ACTUAL=1092    export MAC_OS_X_VERSION_MAJOR=1090    export MAC_OS_X_VERSION_MINOR=0902    export NATIVE_ARCH=armv7    export NATIVE_ARCH_32_BIT=i386    export NATIVE_ARCH_64_BIT=x86_64    export NATIVE_ARCH_ACTUAL=x86_64    export NO_COMMON=YES    export OBJECT_FILE_DIR=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects    export OBJECT_FILE_DIR_normal=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Objects-normal    export OBJROOT=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build    export ONLY_ACTIVE_ARCH=YES    export OPTIMIZATION_LEVEL=0    export OS=MACOS    export OSAC=/usr/bin/osacompile    export OTHER_LDFLAGS="-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load \"/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/libCordova.a\" -ObjC"    export PACKAGE_TYPE=com.apple.package-type.wrapper.application    export PASCAL_STRINGS=YES    export PATH="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    export PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES="/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    export PBDEVELOPMENTPLIST_PATH=demo3.app/pbdevelopment.plist    export PFE_FILE_C_DIALECTS=objective-c    export PKGINFO_FILE_PATH=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/PkgInfo    export PKGINFO_PATH=demo3.app/PkgInfo    export PLATFORM_DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Applications    export PLATFORM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    export PLATFORM_DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    export PLATFORM_DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs    export PLATFORM_DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Tools    export PLATFORM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr    export PLATFORM_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform    export PLATFORM_NAME=iphoneos    export PLATFORM_PREFERRED_ARCH=arm64    export PLATFORM_PRODUCT_BUILD_VERSION=11D167    export PLIST_FILE_OUTPUT_FORMAT=binary    export PLUGINS_FOLDER_PATH=demo3.app/PlugIns    export PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR=YES    export PRECOMP_DESTINATION_DIR=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/PrefixHeaders    export PRESERVE_DEAD_CODE_INITS_AND_TERMS=NO    export PRIVATE_HEADERS_FOLDER_PATH=demo3.app/PrivateHeaders    export PRODUCT_NAME=demo3    export PRODUCT_SETTINGS_PATH=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/demo3-Info.plist    export PRODUCT_TYPE=com.apple.product-type.application    export PROFILING_CODE=NO    export PROJECT=demo3    export PROJECT_DERIVED_FILE_DIR=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/DerivedSources    export PROJECT_DIR=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PROJECT_FILE_PATH=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3.xcodeproj    export PROJECT_NAME=demo3    export PROJECT_TEMP_DIR=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build    export PROJECT_TEMP_ROOT=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build    export PROVISIONING_PROFILE_REQUIRED=YES    export PUBLIC_HEADERS_FOLDER_PATH=demo3.app/Headers    export RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS=YES    export REMOVE_CVS_FROM_RESOURCES=YES    export REMOVE_GIT_FROM_RESOURCES=YES    export REMOVE_HG_FROM_RESOURCES=YES    export REMOVE_SVN_FROM_RESOURCES=YES    export RESOURCE_RULES_REQUIRED=YES    export REZ_COLLECTOR_DIR=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/ResourceManagerResources    export REZ_OBJECTS_DIR=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/ResourceManagerResources/Objects    export REZ_SEARCH_PATHS="/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device "    export SCAN_ALL_SOURCE_FILES_FOR_INCLUDES=NO    export SCRIPTS_FOLDER_PATH=demo3.app/Scripts    export SCRIPT_INPUT_FILE_COUNT=0    export SCRIPT_OUTPUT_FILE_COUNT=0    export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk    export SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk    export SDK_NAME=iphoneos7.1    export SDK_PRODUCT_BUILD_VERSION=11D167    export SED=/usr/bin/sed    export SEPARATE_STRIP=NO    export SEPARATE_SYMBOL_EDIT=NO    export SET_DIR_MODE_OWNER_GROUP=YES    export SET_FILE_MODE_OWNER_GROUP=NO    export SHALLOW_BUNDLE=YES    export SHARED_DERIVED_FILE_DIR=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/DerivedSources    export SHARED_FRAMEWORKS_FOLDER_PATH=demo3.app/SharedFrameworks    export SHARED_PRECOMPS_DIR=/var/folders/wq/002kv07s1jzc5jl7f1_2dll80000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders    export SHARED_SUPPORT_FOLDER_PATH=demo3.app/SharedSupport    export SKIP_INSTALL=NO    export SOURCE_ROOT=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export SRCROOT=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export STRINGS_FILE_OUTPUT_ENCODING=binary    export STRIP_INSTALLED_PRODUCT=YES    export STRIP_STYLE=all    export SUPPORTED_DEVICE_FAMILIES=1,2    export SUPPORTED_PLATFORMS="iphonesimulator iphoneos"    export SYMROOT=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build    export SYSTEM_ADMIN_APPS_DIR=/Applications/Utilities    export SYSTEM_APPS_DIR=/Applications    export SYSTEM_CORE_SERVICES_DIR=/System/Library/CoreServices    export SYSTEM_DEMOS_DIR=/Applications/Extras    export SYSTEM_DEVELOPER_APPS_DIR=/Applications/Xcode.app/Contents/Developer/Applications    export SYSTEM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin    export SYSTEM_DEVELOPER_DEMOS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    export SYSTEM_DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer    export SYSTEM_DEVELOPER_DOC_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    export SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    export SYSTEM_DEVELOPER_JAVA_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    export SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    export SYSTEM_DEVELOPER_RELEASENOTES_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    export SYSTEM_DEVELOPER_TOOLS=/Applications/Xcode.app/Contents/Developer/Tools    export SYSTEM_DEVELOPER_TOOLS_DOC_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    export SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    export SYSTEM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr    export SYSTEM_DEVELOPER_UTILITIES_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Utilities    export SYSTEM_DOCUMENTATION_DIR=/Library/Documentation    export SYSTEM_KEXT_INSTALL_PATH=/System/Library/Extensions    export SYSTEM_LIBRARY_DIR=/System/Library    export TARGETED_DEVICE_FAMILY=1,2    export TARGETNAME=demo3    export TARGET_BUILD_DIR=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device    export TARGET_NAME=demo3    export TARGET_TEMP_DIR=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build    export TEMP_DIR=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build    export TEMP_FILES_DIR=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build    export TEMP_FILE_DIR=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build    export TEMP_ROOT=/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build    export TOOLCHAINS=com.apple.dt.toolchain.XcodeDefault    export UID=501    export UNLOCALIZED_RESOURCES_FOLDER_PATH=demo3.app    export UNSTRIPPED_PRODUCT=NO    export USER=Candy    export USER_APPS_DIR=/Users/Candy/Applications    export USER_LIBRARY_DIR=/Users/Candy/Library    export USE_DYNAMIC_NO_PIC=YES    export USE_HEADERMAP=YES    export USE_HEADER_SYMLINKS=NO    export VALIDATE_PRODUCT=NO    export VALID_ARCHS="armv7 armv7s"    export VERBOSE_PBXCP=NO    export VERSIONPLIST_PATH=demo3.app/version.plist    export VERSION_INFO_BUILDER=Candy    export VERSION_INFO_FILE=demo3_vers.c    export VERSION_INFO_STRING="\"@(#)PROGRAM:demo3  PROJECT:demo3-\""    export WRAPPER_EXTENSION=app    export WRAPPER_NAME=demo3.app    export WRAPPER_SUFFIX=.app    export XCODE_APP_SUPPORT_DIR=/Applications/Xcode.app/Contents/Developer/Library/Xcode    export XCODE_PRODUCT_BUILD_VERSION=5B130a    export XCODE_VERSION_ACTUAL=0510    export XCODE_VERSION_MAJOR=0500    export XCODE_VERSION_MINOR=0510    export XPCSERVICES_FOLDER_PATH=demo3.app/XPCServices    export YACC=yacc    export arch=armv7    export variant=normal    /bin/sh -c /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/Script-304B58A110DAC018002A0835.sh36"29F983B2-AEB4-4F54-AA14-B72C08675D43-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CProcessInfoPlistFile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Info.plist /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/demo3-Info.plist
+s418258538.261705
+e418258538.264193
+r1
+xProcessInfoPlistFile
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Info.plist
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/demo3-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Process /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/demo3-Info.plist77"ProcessInfoPlistFile build/device/demo3.app/Info.plist demo3/demo3-Info.plistdf17436a1eeeb841^0ea4436a1eeeb841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/demo3-Info.plist0000000000000000^899"ProcessInfoPlistFile build/device/demo3.app/Info.plist demo3/demo3-Info.plist    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    builtin-infoPlistUtility /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/demo3/demo3-Info.plist -genpkginfo /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/ResourceRules.plist -o /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/Info.plist36"2BC9EE87-90F6-4673-979E-8FF9833604F3-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CProcessPCH /var/folders/wq/002kv07s1jzc5jl7f1_2dll80000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/demo3-Prefix-fnyxkqxpbeczpnaxkchedhbnhjpj/demo3-Prefix.pch.pch demo3/demo3-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3.xcent
+s418258545.372425
+e418258545.374570
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection201"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist build/demo3.build/Debug-iphoneos/demo3.build/demo3.xcent201"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist build/demo3.build/Debug-iphoneos/demo3.build/demo3.xcent16685f711eeeb841^a8e55f711eeeb841^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3.xcent003420c9dcffdf42^867"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist build/demo3.build/Debug-iphoneos/demo3.build/demo3.xcent    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/demo3.build/Debug-iphoneos/demo3.build/demo3.xcent36"AE17B08E-4E94-40DD-9022-0C4366144B97-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CProcessProductPackaging /Users/Candy/Library/MobileDevice/Provisioning\ Profiles/BA3A650E-485F-41C9-B75E-B232AEDE64B3.mobileprovision /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/embedded.mobileprovision
+s418258545.349452
+e418258545.361124
+r1
+xProcessProductPackaging
+x/Users/Candy/Library/MobileDevice/Provisioning Profiles/BA3A650E-485F-41C9-B75E-B232AEDE64B3.mobileprovision
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection181"ProcessProductPackaging /Users/Candy/Library/MobileDevice/Provisioning\ Profiles/BA3A650E-485F-41C9-B75E-B232AEDE64B3.mobileprovision build/device/demo3.app/embedded.mobileprovision181"ProcessProductPackaging /Users/Candy/Library/MobileDevice/Provisioning\ Profiles/BA3A650E-485F-41C9-B75E-B232AEDE64B3.mobileprovision build/device/demo3.app/embedded.mobileprovisionc5a95a711eeeb841^32745c711eeeb841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/embedded.mobileprovision003420c9dcffdf42^801"ProcessProductPackaging /Users/Candy/Library/MobileDevice/Provisioning\ Profiles/BA3A650E-485F-41C9-B75E-B232AEDE64B3.mobileprovision build/device/demo3.app/embedded.mobileprovision    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    builtin-productPackagingUtility /Users/Candy/Library/MobileDevice/Provisioning\ Profiles/BA3A650E-485F-41C9-B75E-B232AEDE64B3.mobileprovision -o /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app/embedded.mobileprovision36"EA4C04FB-994D-416A-87EB-CD6D6968241E-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+
+CTouch /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app
+s418258545.364351
+e418258545.371901
+r1
+xTouch
+x/Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Touch /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app28"Touch build/device/demo3.app548e5d711eeeb841^ce365f711eeeb841^---0#0#1#--496"Touch build/device/demo3.app    cd /Users/Candy/Desktop/appDemo2/demo3/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/Candy/Desktop/ADT-Bundle/sdk/platform-tools:/Users/Candy/Desktop/ADT-Bundle/sdk/tools"    /usr/bin/touch -c /Users/Candy/Desktop/appDemo2/demo3/platforms/ios/build/device/demo3.app36"3478F51C-4B31-47B3-94A8-27BC05356E34-
+b91EC5545-EF46-4D59-91B9-194E0C244F93
+

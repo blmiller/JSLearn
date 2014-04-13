@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A771ACB4-BECB-4086-90BF-1E9F38C9EE6C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>demo3</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FB0C1B4D-A7EA-4D3E-9AD7-1D81A2F53AF0</key>
+		<string>https://github.com/Khitten/AVF</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>demo3/platforms/ios/demo3.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FB0C1B4D-A7EA-4D3E-9AD7-1D81A2F53AF0</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Khitten/AVF</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FB0C1B4D-A7EA-4D3E-9AD7-1D81A2F53AF0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FB0C1B4D-A7EA-4D3E-9AD7-1D81A2F53AF0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>appDemo2</string>
+		</dict>
+	</array>
+</dict>
+</plist>
