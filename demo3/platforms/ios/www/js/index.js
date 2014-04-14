@@ -64,7 +64,6 @@ var onDeviceReady = function () {
     
     
    $("#geoFindMe").on('click', function () {
-                       
      var output = document.getElementById('outloc');
                        
      if (!navigator.geolocation){
@@ -106,7 +105,25 @@ var onDeviceReady = function () {
      };
      navigator.geolocation.getCurrentPosition(successloc, errorloc);
                        
-   });
+   }),
+    $("#doCam").on('click', function() {
+      var msg = document.getElementById('snapMessage');
+      msg.innerHTML = "I'm here";
+
+      navigator.camera.getPicture(onSuccess, onFail,
+                                  { quality: 50, destinationType: Camera.DestinationType.FILE_URI } );
+                   
+      function onSuccess(imageURI) {
+         var image = document.getElementById('snapshotloc');
+         image.src = imageURI;
+      }
+                   
+      function onFail(message) {
+        var msg = document.getElementById('snapMessage');
+        msg.innerHTML = message;
+      }
+    });
+
 };
 
 document.addEventListener("deviceready", onDeviceReady, false);
