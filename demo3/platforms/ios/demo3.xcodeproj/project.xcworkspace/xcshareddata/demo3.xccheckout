@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>414FA928-F1DA-4DA2-A35F-A18D08D22338</string>
+	<string>EAF1A20E-1BFB-4349-8EA8-A876FA6B02AE</string>
 	<key>IDESourceControlProjectName</key>
 	<string>demo3</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>92218E25-3990-4015-9607-6439487CD2B9</key>
-		<string>https://github.com/blmiller/JSLearn</string>
+		<key>07FD85ED-FE2C-455C-A951-65396B9F1823</key>
+		<string>https://github.com/blmiller/JSLearn.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>demo3/platforms/ios/demo3.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>92218E25-3990-4015-9607-6439487CD2B9</key>
+		<key>07FD85ED-FE2C-455C-A951-65396B9F1823</key>
 		<string>../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/blmiller/JSLearn</string>
+	<string>https://github.com/blmiller/JSLearn.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>92218E25-3990-4015-9607-6439487CD2B9</string>
+	<string>07FD85ED-FE2C-455C-A951-65396B9F1823</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>92218E25-3990-4015-9607-6439487CD2B9</string>
+			<string>07FD85ED-FE2C-455C-A951-65396B9F1823</string>
 			<key>IDESourceControlWCCName</key>
 			<string>JSLearn</string>
 		</dict>
